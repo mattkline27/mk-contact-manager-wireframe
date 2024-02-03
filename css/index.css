@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #1A65B1;
+}
+
+.bi-power {
+    color: white;
+}
+
+.bi-power:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
