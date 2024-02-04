@@ -1,5 +1,10 @@
+body {
+    overflow: hidden;
+}
+
 .navbar {
     background-color: #1A65B1;
+    top: 0;
 }
 
 .bi-power {
@@ -10,3 +15,39 @@
     opacity: 0.8;
     cursor: pointer;
 }
+
+.sidebar {
+    height: 100vh;
+    background-color: #304257;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.sidebar .nav-button {
+    background-color: #304257;
+    padding: 15px 10px 15px 10px;
+    color: white;
+}
+
+.sidebar .nav-button:active {
+    outline: transparent;
+    box-shadow: none;
+}
+
+.sidebar .nav-button:hover {
+    background-color: #293A4D;
+    cursor: pointer;
+}
+
+.sidebar .dropdown-item {
+    padding: 10px 20px 10px 25px;
+}
+
+.sidebar .text {
+    font-weight: 550;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
