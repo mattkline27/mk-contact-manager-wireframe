@@ -89,7 +89,7 @@ main {
     overflow-y: scroll;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     body {
         overflow-y: scroll !important;
     }
