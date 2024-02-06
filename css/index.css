@@ -19,8 +19,10 @@ body {
 .sidebar {
     height: 100vh;
     background-color: #304257;
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;
     scrollbar-width: none;
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 
 .sidebar .nav-button {
@@ -29,9 +31,15 @@ body {
     color: white;
 }
 
-.sidebar .nav-button:active {
-    outline: transparent;
-    box-shadow: none;
+.sidebar .nav-button:not(.collapsed) {
+    border-color: transparent;
+    background-color: #1f2b3a;
+}
+
+.sidebar .nav-button.collapsed {
+    border-color: transparent;
+    background-color: #304257;
+    opacity: 0.75;
 }
 
 .sidebar .nav-button:hover {
@@ -57,10 +65,42 @@ body {
 
 hr {
     background-color: #304257;
-    height: 3px
+    height: 3px;
+    display: grid;
 }
 
 tr {
-    height: 50px
+    height: 70px
 }
+
+.type-icon {
+    color: #304257;
+}
+
+a {
+    color: #1A65B1;
+}
+.source-badge {
+    width: 70px;
+}
+
+main {
+    max-height: 95vh;
+    overflow-y: scroll;
+}
+
+@media (max-width: 800px) {
+    body {
+        overflow-y: scroll !important;
+    }
+    .sidebar {
+        overflow-y: visible !important;
+        height: fit-content !important;
+    }
+    main {
+        overflow-y: visible !important;
+
+    }
+}
+
 

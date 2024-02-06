@@ -10,30 +10,30 @@
 
 </head>
 <body class="text-light">
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg row sticky-top" >
-            <div class="col">
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg d-flex sticky-top justify-content-between p-2" >
+            <div class="">
                 <a class="navbar-brand col" href="#">
                     <img src="./assets/spectrum_logo.png" alt="spectruminc logo" height="20">
                 </a>
             </div>
-            <div class="col text-center fw-semibold">DreamHome, Inc. Administration</div>
-            <div class="col flex-shrink-0 text-end">
+            <div class=" text-center fw-semibold">DreamHome, Inc. Administration</div>
+            <div class=" flex-shrink-0 text-end">
                 <span class="badge bg-primary rounded-0 mx-1">SPECTRUM</span>
                 <span class="fw-semibold">brookek@spectruminc.com</span>
                 <a href="" class="mx-1">
-                    <i class="bi bi-power"></i>
+                    <i class="bi bi-power" style="-webkit-text-stroke-width: 1px"></i>
                 </a>
             </div>
         </nav>
     </div>
 
-    <div class="container-fluid">
+    <div id="main-container" class="container-fluid">
         <div class="row p-0">
             <nav class="text-light p-0 sidebar overflow-auto pb-5 col-md-3 col-lg-3 col-xl-2">
                 <ul class="list-unstyled ps-0">
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 justify-content-between text-start">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 justify-content-between text-start collapsed">
                             <span>
                                 <i class="bi bi-arrow-up-right-square-fill me-3"></i>
                                 <span class="align-self-baseline">Predictive Sales AI</span>
@@ -41,13 +41,13 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start collapsed">
                             <i class="bi bi-speedometer me-3"></i>
                             <span class="sidebar-text">Dashboard</span>
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start collapsed">
                             <i class="bi bi-display-fill me-3"></i>
                             <span class="sidebar-text">Website</span>
                         </button>
@@ -63,16 +63,16 @@
                         </button>
                         <div class="show px-4" id="contacts-collapse">
                             <ul class="btn-toggle-nav list-unstyled small">
-                                <li class="dropdown-item"><a href="#" class="link-light text-decoration-none">Contacts</a></li>
-                                <li class="dropdown-item"><a href="#" class="link-light text-decoration-none">Activity</a></li>
-                                <li class="dropdown-item"><a href="#" class="link-light text-decoration-none">Events</a></li>
-                                <li class="dropdown-item"><a href="#" class="link-light text-decoration-none">Calendar</a></li>
-                                <li class="dropdown-item"><a href="#" class="link-light text-decoration-none">Tags</a></li>
+                                <li class="dropdown-item"><a href="#" class="link-light fw-bold text-decoration-none">Contacts</a></li>
+                                <li class="dropdown-item"><a href="#" class="link-light link-opacity-75 text-decoration-none">Activity</a></li>
+                                <li class="dropdown-item"><a href="#" class="link-light link-opacity-75 text-decoration-none">Events</a></li>
+                                <li class="dropdown-item"><a href="#" class="link-light link-opacity-75 text-decoration-none">Calendar</a></li>
+                                <li class="dropdown-item"><a href="#" class="link-light link-opacity-75 text-decoration-none">Tags</a></li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-search me-3"></i>
                                 <span class="sidebar-text">SEO</span>
@@ -81,7 +81,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-star-fill me-3"></i>
                                 <span class="sidebar-text">Reputation Manager</span>
@@ -90,7 +90,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-pencil-square me-3"></i>
                                 <span class="sidebar-text">Projects</span>
@@ -99,7 +99,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-pencil-fill me-3"></i>
                                 <span class="sidebar-text">Blog</span>
@@ -108,7 +108,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-check-square-fill me-3"></i>
                                 <span class="align-self-baseline">Audits</span>
@@ -117,7 +117,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-chat-fill me-3"></i>
                                 <span class="sidebar-text">Client Feedback</span>
@@ -126,7 +126,7 @@
                         </button>
                     </li>
                     <li>
-                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between">
+                        <button class="nav-button d-flex btn btn-toggle text-light w-100 rounded-0 text-start justify-content-between collapsed">
                             <span>
                                 <i class="bi bi-gear-fill me-3"></i>
                                 <span class="align-self-baseline">Settings</span>
@@ -136,13 +136,12 @@
                     </li>
                 </ul>
             </nav>
-            <main class="col-md-7 col-lg-7 p-4 text-dark overflow-auto flex-grow-1">
+            <main class="col-md-7 col-lg-7 p-4 text-dark flex-grow-1 h-100">
                 <div class="content-section text-start" id="contacts-content">
                     <div class="d-flex justify-content-between">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center text-center">
                             <h4 class="me-3 my-auto">Contacts</h4>
-                            <div class="my-auto">Total Count:</div>
-                            <div id="contact-count" class="my-auto px-2">0</div>
+                            <a href="" class="fw-semibold text-decoration-none">Total Count: 18109</a>
                         </div>
                         <div class="d-flex">
                         </div>
@@ -151,13 +150,11 @@
                     </div>
                     <div class="d-flex justify-content-between my-2">
                         <span>
-                            <label>
-                                <input type="text" class="form-control rounded-0" placeholder="Search"/>
-                            </label>
+                            <input type="text" class="form-control rounded-0" placeholder="Search" id="search-input">
                         </span>
                         <div>
-                            <button class="btn btn-primary rounded-0">Filter</button>
-                            <button class="btn btn-primary rounded-0">Add Contact</button>
+                            <button class="btn btn-secondary rounded-0">Filter</button>
+                            <button class="btn btn-secondary rounded-0">Add Contact</button>
                         </div>
 
                     </div>
@@ -166,12 +163,18 @@
                     <div class="w-auto">
                         <table class="w-100">
                             <tr class="border-bottom">
+                                <th>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="contact-${contactId}">
+                                    </div>
+                                </th>
                                 <th>Type</th>
                                 <th>Date</th>
                                 <th>Name</th>
                                 <th>Phone</th>
+                                <th>Email</th>
                                 <th>Status</th>
-                                <th>Activity</th>
+                                <th>Actions</th>
                             </tr>
                             <tbody id="contacts-table">
 
@@ -179,6 +182,23 @@
                         </table>
                     </div>
 
+                    <div class="d-flex justify-content-between my-3">
+                        <div class="d-flex">
+                            <button class="btn btn-secondary rounded-0">Previous</button>
+                            <button class="btn btn-secondary rounded-0">Next</button>
+                        </div>
+                        <div class="d-flex">
+                            <button class="btn btn-secondary rounded-0 active">1</button>
+                            <button class="btn btn-secondary rounded-0">2</button>
+                            <button class="btn btn-secondary rounded-0">3</button>
+                            <button class="btn btn-secondary rounded-0">4</button>
+                            <button class="btn btn-secondary rounded-0">5</button>
+                            <button class="btn btn-secondary rounded-0">6</button>
+                            <button class="btn btn-secondary rounded-0 disabled">...</button>
+                            <button class="btn btn-secondary rounded-0">363</button>
+                        </div>
+                    </div>
+                </div>
 
             </main>
         </div>
@@ -187,6 +207,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <script src="./js/index.js"></script>
 </body>
 </html>
