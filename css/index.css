@@ -99,7 +99,13 @@ main {
     }
     main {
         overflow-y: visible !important;
-
+    }
+    .navbar {
+        flex-direction: column !important;
+        height: fit-content !important;
+    }
+    .navbar-container {
+        position: relative;
     }
 }
 

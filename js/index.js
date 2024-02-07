@@ -105,7 +105,7 @@ function populateTable() {
             </td>
             <td>${sourceBadge}</td>
             <td>
-                <div class="dropdown d-flex justify-content-start align-items-center ">
+                <div class="dropdown d-flex align-items-center justify-content-end h-100">
                     <button class="btn btn-secondary dropdown-toggle rounded-0" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="bi bi-pencil-fill"></i>
                     </button>
