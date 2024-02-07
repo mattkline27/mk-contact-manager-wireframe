@@ -77,8 +77,6 @@ function getSourceBadge(source) {
         }
 }
 
-
-
 function populateTable() {
     const table = document.getElementById('contacts-table');
     contacts.forEach(contact => {
