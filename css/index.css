@@ -2,6 +2,29 @@ body {
     overflow: hidden;
 }
 
+hr {
+    background-color: #304257;
+    height: 3px;
+    display: grid;
+}
+
+tr {
+    height: 70px
+}
+
+a {
+    color: #1A65B1;
+}
+
+.btn {
+    background-color: #304257;
+}
+
+main {
+    max-height: 95vh;
+    overflow-y: scroll;
+}
+
 .navbar {
     background-color: #1A65B1;
     top: 0;
@@ -25,19 +48,22 @@ body {
     overflow-y: scroll;
 }
 
+.sidebar .dropdown-item {
+    padding: 10px 20px 10px 25px;
+}
+
+.sidebar .text {
+    font-weight: 550;
+}
+
 .sidebar .nav-button {
+    border-color: transparent !important;
     background-color: #304257;
     padding: 15px 10px 15px 10px;
     color: white;
 }
 
-.sidebar .nav-button:not(.collapsed) {
-    border-color: transparent;
-    background-color: #1f2b3a;
-}
-
 .sidebar .nav-button.collapsed {
-    border-color: transparent;
     background-color: #304257;
     opacity: 0.75;
 }
@@ -47,47 +73,19 @@ body {
     cursor: pointer;
 }
 
-.sidebar .dropdown-item {
-    padding: 10px 20px 10px 25px;
-}
-
-.sidebar .text {
-    font-weight: 550;
-}
-
 .sidebar::-webkit-scrollbar {
     display: none;
-}
-
-.btn {
-    background-color: #304257;
-}
-
-hr {
-    background-color: #304257;
-    height: 3px;
-    display: grid;
-}
-
-tr {
-    height: 70px
 }
 
 .type-icon {
     color: #304257;
 }
 
-a {
-    color: #1A65B1;
-}
 .source-badge {
     width: 70px;
 }
 
-main {
-    max-height: 95vh;
-    overflow-y: scroll;
-}
+
 
 @media (max-width: 768px) {
     body {
